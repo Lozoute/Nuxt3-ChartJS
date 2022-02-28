@@ -1,0 +1,16 @@
+# WebStorm
+.idea
+
+# Visual Studio Code
+.vscode
+
+# Modules
+node_modules
+
+# Environments
+.env
+.env.test
+
+# Nuxt
+.nuxt
+.output

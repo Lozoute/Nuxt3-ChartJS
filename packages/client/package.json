@@ -1,0 +1,16 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "^3.0.0-27434419.754ff0c"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.0",
+    "vue-chart-3": "^3.0.9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspace=$PACKAGE_NAME --workspace=@toteem/shared",
+    "start": "npm start --workspace=$PACKAGE_NAME",
+    "build": "npm run build --workspace=$PACKAGE_NAME"
+  }
+}
